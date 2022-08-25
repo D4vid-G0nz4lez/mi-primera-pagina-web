@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Incriptador</title>
+</head>
+
+<body >
+    <header>
+        <img src="imagenes/logo.png" alt="logo-alura" class="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <textarea class="area" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor-boton">
+                <p class="mensaj"> <img class="signo" src="imagenes/signo!.png">Solo letras minusculas y sin acentos</p>
+                <input type="button" class="btn-encriptar" value="ENCRIPTAR">
+                <input type="button" class="btn-desencriptar" value="DESENCRIPTAR">         
+            </div>
+           
+        </section>
+
+        <section class="seccion2">
+            <div class="contenedor-munheco">
+                <img src="imagenes/Muñeco.png " alt="muñeco de encriptador">
+           </div>
+
+           <div class="contenedor-h3">
+                <h3>Ningún mensaje fue encontrado</h3>
+           </div>
+
+           <div class="contenedor-parrafo">
+                <p>Ingrese el texto que desea encriptar o desencriptar</p>
+           </div>
+
+           <div class="contenedor-resultado">
+            <h3>Mensaje encriptado: </h3>
+            <p class="texto-resultado"></p>
+            
+           </div>
+
+           <div class="contenedor-copiar">
+            <input type="button" class="btn-copiar" onclick="copy()"value="COPIAR">
+           </div>
+
+        </section> 
+    </main>
+    
+    <footer class="enlaces">
+        <a href="https://github.com/D4vid-G0nz4lez/" target="_blank">
+            <img class="git" src="imagenes/github.png" alt="github">
+        </a> 
+        <a href="https://www.linkedin.com/in/jorge-david-gonzalez-9a506121a/" target="_blank">
+            <img class="linkedin" src="imagenes/linkedin.png">
+        </a>
+
+    </footer>
+      
+    <script src="scriptcode.js"></script>
+</body>
+
+</html>
